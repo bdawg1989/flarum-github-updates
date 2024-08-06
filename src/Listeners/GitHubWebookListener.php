@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\FlarumGitHubUpdates\Listeners;
+namespace Bdawg1989\FlarumGitHubUpdates\Listeners;
 
 use Flarum\Post\Command\PostReply;
 use Flarum\User\User;
@@ -8,7 +8,7 @@ use Illuminate\Contracts\Bus\Dispatcher;
 use Illuminate\Support\Arr;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Diactoros\Response\JsonResponse;
-use Vendor\FlarumGitHubUpdates\Repositories\GitHubRepository;
+use Bdawg1989\FlarumGitHubUpdates\Repositories\GitHubRepository;
 
 class GitHubWebhookListener
 {
