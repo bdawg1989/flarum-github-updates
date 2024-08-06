@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\FlarumGitHubUpdates\Repositories;
+namespace Bdawg1989\FlarumGitHubUpdates\Repositories;
 
 use Flarum\Discussion\Discussion;
 use Flarum\Tag\Tag;
