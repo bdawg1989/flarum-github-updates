@@ -2,7 +2,21 @@
   "name": "bdawg1989/flarum-github-updates",
   "description": "A Flarum extension to post GitHub updates to a specific tag.",
   "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "your.email@example.com",
+      "homepage": "https://yourhomepage.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/bdawg1989/flarum-github-updates/issues",
+    "source": "https://github.com/bdawg1989/flarum-github-updates",
+    "forum": "https://discuss.flarum.org/d/your-discussion"
+  },
   "require": {
+    "php": "^8.0",
     "flarum/core": "^1.0"
   },
   "autoload": {
